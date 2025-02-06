@@ -38,7 +38,7 @@ yesBtn.addEventListener("mouseover", yesMouseOver);
 yesBtn.addEventListener("mouseout", yesMouseOut);
 
 yesBtn.addEventListener("click", () => {
-    question.innerText = "Yay I Love YOu!! ❤ ";
+    question.innerText = "Yay I Love You!! ❤";
     image.src = "/img/love.gif";
 
     yesBtn.removeEventListener("mouseover", yesMouseOver);
